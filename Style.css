@@ -1,0 +1,62 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+--white: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+}
+body{
+   font-size: 15px;
+   background-color: #D5E1EF;
+}
+
+.contianer{
+    background-color: var(--white);
+    border-radius: 26px;
+    box-shadow: 0px 10px 22px rgba(0, 0, 0, 0.25);
+    width: 340px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 23px auto;
+}
+.logo  img{
+    border-radius: 26px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.description{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px; 
+}
+.description h2{
+    font-weight: bolder;
+    font-size: 21px;
+    color: #000000;
+}
+.description p{
+    color: var(--Light-gray);
+    margin-top: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    font-size: 1.1em;
+}
+.attribution{
+    text-align: center;
+    font-size: 12px;
+    color: var(--white);
+}
